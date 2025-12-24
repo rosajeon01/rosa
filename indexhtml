@@ -1,81 +1,107 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>학생 네트워크 시각화</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>학생 네트워크 시각화 | Rosa</title>
 
   <style>
     body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
       margin: 0;
-      font-family: sans-serif;
-      background: #f5f6f8;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-
-    .container {
-      background: white;
-      padding: 40px;
-      border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      text-align: center;
-      width: 420px;
+      padding: 50px;
+      background: #f7f8fa;
+      color: #222;
     }
 
     h1 {
       margin-bottom: 10px;
     }
 
-    p {
+    .subtitle {
       color: #555;
       margin-bottom: 30px;
     }
 
-    a.button {
-      display: block;
-      text-decoration: none;
-      padding: 15px;
-      margin: 12px 0;
-      border-radius: 8px;
-      background: #4a90e2;
-      color: white;
-      font-size: 16px;
-      font-weight: bold;
-      transition: background 0.2s;
+    .section {
+      margin-bottom: 40px;
     }
 
-    a.button:hover {
-      background: #357abd;
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 6px;
+      margin-bottom: 15px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #1a4fd8;
+      font-size: 16px;
+    }
+
+    a:hover {
+      text-decoration: underline;
     }
 
     footer {
-      margin-top: 20px;
+      margin-top: 60px;
       font-size: 12px;
-      color: #888;
+      color: #777;
     }
   </style>
 </head>
 
 <body>
-  <div class="container">
-    <h1>학생 네트워크 시각화</h1>
-    <p>2025 하원초 또래관계 네트워크</p>
 
-    <!-- 파일명은 GitHub에 올라간 실제 파일명과 정확히 같아야 함 -->
-    <a class="button" href="./2025 하원초 Wave1_3-1(응답).html">
-      3-1 네트워크 보기
-    </a>
+  <h1>📊 학생 네트워크 시각화</h1>
+  <p class="subtitle">
+    또래관계 설문 기반 네트워크 시각화 결과 페이지<br>
+    (Wave 1 · 학교 / 학급 단위)
+  </p>
 
-    <a class="button" href="./2025 하원초 Wave1_3-2(응답).html">
-      3-2 네트워크 보기
-    </a>
+  <div class="section">
+    <h2>🏫 2025 하원초</h2>
+    <ul>
+      <li><a href="2025 하원초 Wave1_3-1(응답).html">3학년 1반</a></li>
+      <li><a href="2025 하원초 Wave1_3-2(응답).html">3학년 2반</a></li>
+      <li><a href="2025 하원초 Wave1_3-3(응답).html">3학년 3반</a></li>
+      <li><a href="2025 하원초 Wave1_3-4(응답).html">3학년 4반</a></li>
 
-    <footer>
-      © 2025 Rosa Jeon
-    </footer>
+      <li><a href="2025 하원초 Wave1_4-1(응답).html">4학년 1반</a></li>
+      <li><a href="2025 하원초 Wave1_4-2(응답).html">4학년 2반</a></li>
+      <li><a href="2025 하원초 Wave1_4-3(응답).html">4학년 3반</a></li>
+      <li><a href="2025 하원초 Wave1_4-4(응답).html">4학년 4반</a></li>
+
+      <li><a href="2025 하원초 Wave1_5-1(응답).html">5학년 1반</a></li>
+      <li><a href="2025 하원초 Wave1_5-2(응답).html">5학년 2반</a></li>
+      <li><a href="2025 하원초 Wave1_5-3(응답).html">5학년 3반</a></li>
+
+      <li><a href="2025 하원초 Wave1_6-1(응답).html">6학년 1반</a></li>
+      <li><a href="2025 하원초 Wave1_6-2(응답).html">6학년 2반</a></li>
+      <li><a href="2025 하원초 Wave1_6-3(응답).html">6학년 3반</a></li>
+    </ul>
   </div>
+
+  <div class="section">
+    <h2>🏫 2025 백산초</h2>
+    <ul>
+      <li><a href="2025 백산초 Wave1_5-2(응답).html">5학년 2반</a></li>
+    </ul>
+  </div>
+
+  <footer>
+    © 2025 Rosa Jeon · For research & educational use only
+  </footer>
+
 </body>
 </html>
